@@ -17,13 +17,15 @@
 
 <script id="hexo-configurations">
     var NexT = window.NexT || {};
-    var CONFIG = {"hostname":"example.com","root":"/","scheme":"Muse","version":"7.8.0","exturl":false,"sidebar":{"position":"left","display":"post","padding":18,"offset":12,"onmobile":false},"copycode":{"enable":false,"show_result":false,"style":null},"back2top":{"enable":true,"sidebar":false,"scrollpercent":false},"bookmark":{"enable":false,"color":"#222","save":"auto"},"fancybox":false,"mediumzoom":false,"lazyload":false,"pangu":false,"comments":{"style":"tabs","active":null,"storage":true,"lazyload":false,"nav":null},"algolia":{"hits":{"per_page":10},"labels":{"input_placeholder":"Search for Posts","hits_empty":"We didn't find any results for the search: ${query}","hits_stats":"${hits} results found in ${time} ms"}},"localsearch":{"enable":false,"trigger":"auto","top_n_per_article":1,"unescape":false,"preload":false},"motion":{"enable":true,"async":false,"transition":{"post_block":"fadeIn","post_header":"slideDownIn","post_body":"slideDownIn","coll_header":"slideLeftIn","sidebar":"slideUpIn"}}};
+    var CONFIG = {"hostname":"example.com","root":"/","scheme":"Mist","version":"7.8.0","exturl":false,"sidebar":{"position":"left","display":"always","padding":18,"offset":12,"onmobile":false},"copycode":{"enable":false,"show_result":false,"style":null},"back2top":{"enable":true,"sidebar":false,"scrollpercent":false},"bookmark":{"enable":false,"color":"#222","save":"auto"},"fancybox":false,"mediumzoom":false,"lazyload":false,"pangu":false,"comments":{"style":"tabs","active":null,"storage":true,"lazyload":false,"nav":null},"algolia":{"hits":{"per_page":10},"labels":{"input_placeholder":"Search for Posts","hits_empty":"We didn't find any results for the search: ${query}","hits_stats":"${hits} results found in ${time} ms"}},"localsearch":{"enable":false,"trigger":"auto","top_n_per_article":1,"unescape":false,"preload":false},"motion":{"enable":true,"async":false,"transition":{"post_block":"fadeIn","post_header":"slideDownIn","post_body":"slideDownIn","coll_header":"slideLeftIn","sidebar":"slideUpIn"}}};
   </script>
 
-  <meta property="og:type" content="website">
+  <meta name="description" content="Work like ants and live like butterflies.">
+<meta property="og:type" content="website">
 <meta property="og:title" content="I&#39;m Ziyi Li">
 <meta property="og:url" content="http://example.com/index.html">
 <meta property="og:site_name" content="I&#39;m Ziyi Li">
+<meta property="og:description" content="Work like ants and live like butterflies.">
 <meta property="og:locale" content="en_US">
 <meta property="article:author" content="Ziyi Li">
 <meta name="twitter:card" content="summary">
@@ -72,6 +74,7 @@
   </style>
 </noscript>
 
+<link rel="alternate" href="/atom.xml" title="I'm Ziyi Li" type="application/atom+xml">
 </head>
 
 <body itemscope itemtype="http://schema.org/WebPage">
@@ -95,6 +98,7 @@
       <h1 class="site-title">I'm Ziyi Li</h1>
       <span class="logo-line-after"><i></i></span>
     </a>
+      <p class="site-subtitle" itemprop="description">Work like ants and live like butterflies.</p>
   </div>
 
   <div class="site-nav-right">
@@ -113,9 +117,24 @@
     <a href="/" rel="section"><i class="fa fa-home fa-fw"></i>Home</a>
 
   </li>
+        <li class="menu-item menu-item-categories">
+
+    <a href="/categories/" rel="section"><i class="fa fa-th fa-fw"></i>Categories</a>
+
+  </li>
         <li class="menu-item menu-item-archives">
 
     <a href="/archives/" rel="section"><i class="fa fa-archive fa-fw"></i>Archives</a>
+
+  </li>
+        <li class="menu-item menu-item-schedule">
+
+    <a href="/schedule/" rel="section"><i class="fa fa-calendar fa-fw"></i>Schedule</a>
+
+  </li>
+        <li class="menu-item menu-item-about">
+
+    <a href="/about/" rel="section"><i class="fa fa-user fa-fw"></i>About</a>
 
   </li>
   </ul>
@@ -145,12 +164,12 @@
   
   
   <article itemscope itemtype="http://schema.org/Article" class="post-block" lang="en">
-    <link itemprop="mainEntityOfPage" href="http://example.com/2022/08/17/article-title/">
+    <link itemprop="mainEntityOfPage" href="http://example.com/2022/08/17/Early-Papers/">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
-      <meta itemprop="image" content="/images/avatar.gif">
+      <meta itemprop="image" content="/images/avatar.png">
       <meta itemprop="name" content="Ziyi Li">
-      <meta itemprop="description" content="">
+      <meta itemprop="description" content="Work like ants and live like butterflies.">
     </span>
 
     <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
@@ -159,7 +178,7 @@
       <header class="post-header">
         <h2 class="post-title" itemprop="name headline">
           
-            <a href="/2022/08/17/article-title/" class="post-title-link" itemprop="url">article title</a>
+            <a href="/2022/08/17/Early-Papers/" class="post-title-link" itemprop="url">Early Papers</a>
         </h2>
 
         <div class="post-meta">
@@ -168,8 +187,18 @@
                 <i class="far fa-calendar"></i>
               </span>
               <span class="post-meta-item-text">Posted on</span>
+              
 
-              <time title="Created: 2022-08-17 03:28:11" itemprop="dateCreated datePublished" datetime="2022-08-17T03:28:11+08:00">2022-08-17</time>
+              <time title="Created: 2022-08-17 07:43:42 / Modified: 07:54:37" itemprop="dateCreated datePublished" datetime="2022-08-17T07:43:42+08:00">2022-08-17</time>
+            </span>
+            <span class="post-meta-item">
+              <span class="post-meta-item-icon">
+                <i class="far fa-folder"></i>
+              </span>
+              <span class="post-meta-item-text">In</span>
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+                  <a href="/categories/Classical-Cryptography/" itemprop="url" rel="index"><span itemprop="name">Classical Cryptography</span></a>
+                </span>
             </span>
 
           
@@ -183,7 +212,82 @@
     <div class="post-body" itemprop="articleBody">
 
       
+          <ol>
+<li><a target="_blank" rel="noopener" href="https://inst.eecs.berkeley.edu/~cs276/fa20/notes/probabilistic_encryption.pdf">GM83, Probabilistic encryption</a></li>
+<li><a target="_blank" rel="noopener" href="https://piazza.com/class_profile/get_resource/iiauye4zvj2hu/ik5ioprlv5m3yc">BM84, An Efficient Probabilistic Public-Key Encryption Scheme Which Hides All Partial Information</a></li>
+<li><a target="_blank" rel="noopener" href="https://people.csail.mit.edu/alinush/6.857-spring-2015/papers/elgamal.pdf">Ga84, A Public Key Cryptosystem and a Signature Scheme Based on Discrete Logarithms</a></li>
+</ol>
+
+      
+    </div>
+
+    
+    
+    
+      <footer class="post-footer">
+        <div class="post-eof"></div>
+      </footer>
+  </article>
+  
+  
+  
+
+      
+  
+  
+  <article itemscope itemtype="http://schema.org/Article" class="post-block" lang="en">
+    <link itemprop="mainEntityOfPage" href="http://example.com/2022/08/17/Qantum-Computation/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="image" content="/images/avatar.png">
+      <meta itemprop="name" content="Ziyi Li">
+      <meta itemprop="description" content="Work like ants and live like butterflies.">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="I'm Ziyi Li">
+    </span>
+      <header class="post-header">
+        <h2 class="post-title" itemprop="name headline">
           
+            <a href="/2022/08/17/Qantum-Computation/" class="post-title-link" itemprop="url">References of Qantum Computation</a>
+        </h2>
+
+        <div class="post-meta">
+            <span class="post-meta-item">
+              <span class="post-meta-item-icon">
+                <i class="far fa-calendar"></i>
+              </span>
+              <span class="post-meta-item-text">Posted on</span>
+              
+
+              <time title="Created: 2022-08-17 07:03:05 / Modified: 07:37:26" itemprop="dateCreated datePublished" datetime="2022-08-17T07:03:05+08:00">2022-08-17</time>
+            </span>
+            <span class="post-meta-item">
+              <span class="post-meta-item-icon">
+                <i class="far fa-folder"></i>
+              </span>
+              <span class="post-meta-item-text">In</span>
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+                  <a href="/categories/Quamtum-Computation/" itemprop="url" rel="index"><span itemprop="name">Quamtum Computation</span></a>
+                </span>
+            </span>
+
+          
+
+        </div>
+      </header>
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+
+      
+          <blockquote>
+<p><a target="_blank" rel="noopener" href="http://mmrc.amss.cas.cn/tlb/201702/W020170224608149940643.pdf">NC00. Quantum Computation and Quantum Infromation</a></p>
+</blockquote>
+
       
     </div>
 
@@ -205,9 +309,9 @@
     <link itemprop="mainEntityOfPage" href="http://example.com/2022/08/17/hello-world/">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
-      <meta itemprop="image" content="/images/avatar.gif">
+      <meta itemprop="image" content="/images/avatar.png">
       <meta itemprop="name" content="Ziyi Li">
-      <meta itemprop="description" content="">
+      <meta itemprop="description" content="Work like ants and live like butterflies.">
     </span>
 
     <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
@@ -326,17 +430,23 @@
 
       <div class="site-overview-wrap sidebar-panel">
         <div class="site-author motion-element" itemprop="author" itemscope itemtype="http://schema.org/Person">
+    <img class="site-author-image" itemprop="image" alt="Ziyi Li"
+      src="/images/avatar.png">
   <p class="site-author-name" itemprop="name">Ziyi Li</p>
-  <div class="site-description" itemprop="description"></div>
+  <div class="site-description" itemprop="description">Work like ants and live like butterflies.</div>
 </div>
 <div class="site-state-wrap motion-element">
   <nav class="site-state">
       <div class="site-state-item site-state-posts">
           <a href="/archives/">
         
-          <span class="site-state-item-count">2</span>
+          <span class="site-state-item-count">3</span>
           <span class="site-state-item-name">posts</span>
         </a>
+      </div>
+      <div class="site-state-item site-state-categories">
+        <span class="site-state-item-count">2</span>
+        <span class="site-state-item-name">categories</span>
       </div>
   </nav>
 </div>
@@ -368,7 +478,7 @@
   </span>
   <span class="author" itemprop="copyrightHolder">Ziyi Li</span>
 </div>
-  <div class="powered-by">Powered by <a href="https://hexo.io/" class="theme-link" rel="noopener" target="_blank">Hexo</a> & <a href="https://muse.theme-next.org/" class="theme-link" rel="noopener" target="_blank">NexT.Muse</a>
+  <div class="powered-by">Powered by <a href="https://hexo.io/" class="theme-link" rel="noopener" target="_blank">Hexo</a> & <a href="https://mist.theme-next.org/" class="theme-link" rel="noopener" target="_blank">NexT.Mist</a>
   </div>
 
         
